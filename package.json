@@ -1,0 +1,16 @@
+{
+    "name": "my-tests",
+    "description": "Nightwatch tests",
+    "version": "1.0.0",
+    "author": "Pratik Vadwala",
+    "main": "index.js",
+    "scripts": {
+        "test": "nightwatch -c test/nightwatch.conf.js"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "chromedriver": "^2.24.1",
+        "nightwatch": "^0.9.8",
+        "selenium-server-standalone-jar": "^2.53.1"
+    }
+}
